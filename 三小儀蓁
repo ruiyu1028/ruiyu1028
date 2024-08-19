@@ -1,0 +1,6 @@
+a = int( input('輸入數字：') )
+for i in range(a):
+    print(" "*(a-i) + "*"*(2*i+1))
+b = int (a/2)
+for i in range(b):
+    print (" "*(a-1) + "| |")
